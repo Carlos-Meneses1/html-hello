@@ -1,6 +1,8 @@
+
 body{
-    background: rgba(128, 128, 128, 0.527);
+    background: rgba(202, 199, 199, 0.527);
     margin: 0;
+
 }
 div{
     box-sizing: border-box;
@@ -8,14 +10,22 @@ div{
 header{
     background: white;
     padding: 5px;
+    display: flex;
+    justify-content: center;
+
+    
 }
 header h1{
     margin: 0;
+    width: 600px;
+    display: flex;
+    justify-content:start;
 }
 div.container{
     padding-bottom: 15px;
-    width: 600px;
+    width: 600px;   
     margin: auto;
+    
 }
 div.post{
    background: white;
